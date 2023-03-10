@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="GgP-yR-Wi3">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Red!-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Traffic_light" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mFE-HW-a0L">
+                                <rect key="frame" x="138" y="283" width="99" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push to yellow"/>
+                                <connections>
+                                    <action selector="yellowButtonTaped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="SPA-lv-Fat"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TxP-pO-bEs">
+                                <rect key="frame" x="144" y="346" width="87" height="65"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Push to gren"/>
+                                <connections>
+                                    <action selector="greenButtonTaped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="p1u-Od-pYs"/>
+                                    <action selector="yellowButtonTaped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Gic-7D-ENK"/>
+                                </connections>
+                            </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GNV-hQ-6Eo">
+                                <rect key="frame" x="164" y="444" width="49" height="31"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </switch>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemRedColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Red!" id="4qf-b4-3OI">
+                        <barButtonItem key="backBarButtonItem" title="Return to Red" id="Vuu-9L-zQo"/>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="segueSwitch" destination="GNV-hQ-6Eo" id="Bxp-wC-1wp"/>
+                        <segue destination="94O-Ht-qyZ" kind="show" identifier="yellow" id="6Ly-Ir-rYU"/>
+                        <segue destination="4Yk-QO-94k" kind="show" identifier="green" id="XfB-ge-nS2"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="928.79999999999995" y="81.409295352323838"/>
+        </scene>
+        <!--Green-->
+        <scene sceneID="b9H-0U-6zA">
+            <objects>
+                <viewController id="4Yk-QO-94k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xbK-FK-FYo">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jAF-Fy-Mtj">
+                                <rect key="frame" x="164.5" y="318.5" width="46" height="30"/>
+                                <state key="normal" title="Dismis"/>
+                                <connections>
+                                    <segue destination="JlW-hd-8qg" kind="unwind" unwindAction="unwindToreadWithUnwindSegue:" id="8L1-pi-Z84"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gDj-gZ-ye9"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                        <constraints>
+                            <constraint firstItem="jAF-Fy-Mtj" firstAttribute="centerY" secondItem="xbK-FK-FYo" secondAttribute="centerY" id="N2R-RP-MMQ"/>
+                            <constraint firstItem="jAF-Fy-Mtj" firstAttribute="centerX" secondItem="xbK-FK-FYo" secondAttribute="centerX" id="jIf-2Z-1f9"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Green" id="vOX-jq-z1s">
+                        <barButtonItem key="rightBarButtonItem" title="Item" id="0wM-Jp-ddY"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Jyq-vz-BU9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="JlW-hd-8qg" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="1801" y="378"/>
+        </scene>
+        <!--Yellow?-->
+        <scene sceneID="2pQ-f8-XKL">
+            <objects>
+                <viewController id="94O-Ht-qyZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tS1-qM-ueg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="OOK-dn-aw7"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Yellow?" id="N12-uU-M1e">
+                        <barButtonItem key="backBarButtonItem" title="Return to Yellow?" id="6Lt-zW-Sy9"/>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OBl-Xz-ahv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1801" y="-287"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Dzn-Gm-RnL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="GgP-yR-Wi3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dwH-5u-E8p">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="PlL-gn-WaY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vHq-E9-tvZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18.840579710144929" y="81.696428571428569"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

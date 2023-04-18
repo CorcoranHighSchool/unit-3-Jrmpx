@@ -7,31 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1A292F4729D34C5B00E44DD4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A292F4629D34C5B00E44DD4 /* AppDelegate.swift */; };
-		1A292F4929D34C5B00E44DD4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A292F4829D34C5B00E44DD4 /* SceneDelegate.swift */; };
-		1A292F4B29D34C5B00E44DD4 /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A292F4A29D34C5B00E44DD4 /* FirstVC.swift */; };
-		1A292F4E29D34C5B00E44DD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A292F4C29D34C5B00E44DD4 /* Main.storyboard */; };
-		1A292F5029D34C5E00E44DD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A292F4F29D34C5E00E44DD4 /* Assets.xcassets */; };
-		1A292F5329D34C5E00E44DD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A292F5129D34C5E00E44DD4 /* LaunchScreen.storyboard */; };
-		1AC1830529EAF9E300B70BE2 /* MIddleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1830429EAF9E300B70BE2 /* MIddleVC.swift */; };
-		1AC1830829EAFA1300B70BE2 /* LastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1830729EAFA1300B70BE2 /* LastVC.swift */; };
+		1AC1831829EEF60A00B70BE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1831729EEF60A00B70BE2 /* AppDelegate.swift */; };
+		1AC1831A29EEF60A00B70BE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1831929EEF60A00B70BE2 /* SceneDelegate.swift */; };
+		1AC1831C29EEF60A00B70BE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC1831B29EEF60A00B70BE2 /* ViewController.swift */; };
+		1AC1831F29EEF60A00B70BE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1831D29EEF60A00B70BE2 /* Main.storyboard */; };
+		1AC1832129EEF60E00B70BE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1832029EEF60E00B70BE2 /* Assets.xcassets */; };
+		1AC1832429EEF60E00B70BE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC1832229EEF60E00B70BE2 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1A292F4329D34C5B00E44DD4 /* OrderOfEvents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OrderOfEvents.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A292F4629D34C5B00E44DD4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1A292F4829D34C5B00E44DD4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1A292F4A29D34C5B00E44DD4 /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
-		1A292F4D29D34C5B00E44DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1A292F4F29D34C5E00E44DD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1A292F5229D34C5E00E44DD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		1A292F5429D34C5E00E44DD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1AC1830429EAF9E300B70BE2 /* MIddleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MIddleVC.swift; sourceTree = "<group>"; };
-		1AC1830729EAFA1300B70BE2 /* LastVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastVC.swift; sourceTree = "<group>"; };
+		1AC1831429EEF60A00B70BE2 /* Pizza Deilvery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizza Deilvery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC1831729EEF60A00B70BE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1AC1831929EEF60A00B70BE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1AC1831B29EEF60A00B70BE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1AC1831E29EEF60A00B70BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC1832029EEF60E00B70BE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1AC1832329EEF60E00B70BE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AC1832529EEF60E00B70BE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1A292F4029D34C5B00E44DD4 /* Frameworks */ = {
+		1AC1831129EEF60A00B70BE2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,73 +37,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1A292F3A29D34C5B00E44DD4 = {
+		1AC1830B29EEF60A00B70BE2 = {
 			isa = PBXGroup;
 			children = (
-				1A292F4529D34C5B00E44DD4 /* OrderOfEvents */,
-				1A292F4429D34C5B00E44DD4 /* Products */,
+				1AC1831629EEF60A00B70BE2 /* Pizza Deilvery */,
+				1AC1831529EEF60A00B70BE2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		1A292F4429D34C5B00E44DD4 /* Products */ = {
+		1AC1831529EEF60A00B70BE2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A292F4329D34C5B00E44DD4 /* OrderOfEvents.app */,
+				1AC1831429EEF60A00B70BE2 /* Pizza Deilvery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1A292F4529D34C5B00E44DD4 /* OrderOfEvents */ = {
+		1AC1831629EEF60A00B70BE2 /* Pizza Deilvery */ = {
 			isa = PBXGroup;
 			children = (
-				1A292F4629D34C5B00E44DD4 /* AppDelegate.swift */,
-				1A292F4829D34C5B00E44DD4 /* SceneDelegate.swift */,
-				1A292F4A29D34C5B00E44DD4 /* FirstVC.swift */,
-				1AC1830429EAF9E300B70BE2 /* MIddleVC.swift */,
-				1AC1830729EAFA1300B70BE2 /* LastVC.swift */,
-				1A292F4C29D34C5B00E44DD4 /* Main.storyboard */,
-				1A292F4F29D34C5E00E44DD4 /* Assets.xcassets */,
-				1A292F5129D34C5E00E44DD4 /* LaunchScreen.storyboard */,
-				1A292F5429D34C5E00E44DD4 /* Info.plist */,
+				1AC1831729EEF60A00B70BE2 /* AppDelegate.swift */,
+				1AC1831929EEF60A00B70BE2 /* SceneDelegate.swift */,
+				1AC1831B29EEF60A00B70BE2 /* ViewController.swift */,
+				1AC1831D29EEF60A00B70BE2 /* Main.storyboard */,
+				1AC1832029EEF60E00B70BE2 /* Assets.xcassets */,
+				1AC1832229EEF60E00B70BE2 /* LaunchScreen.storyboard */,
+				1AC1832529EEF60E00B70BE2 /* Info.plist */,
 			);
-			path = OrderOfEvents;
+			path = "Pizza Deilvery";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1A292F4229D34C5B00E44DD4 /* OrderOfEvents */ = {
+		1AC1831329EEF60A00B70BE2 /* Pizza Deilvery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1A292F5729D34C5E00E44DD4 /* Build configuration list for PBXNativeTarget "OrderOfEvents" */;
+			buildConfigurationList = 1AC1832829EEF60E00B70BE2 /* Build configuration list for PBXNativeTarget "Pizza Deilvery" */;
 			buildPhases = (
-				1A292F3F29D34C5B00E44DD4 /* Sources */,
-				1A292F4029D34C5B00E44DD4 /* Frameworks */,
-				1A292F4129D34C5B00E44DD4 /* Resources */,
+				1AC1831029EEF60A00B70BE2 /* Sources */,
+				1AC1831129EEF60A00B70BE2 /* Frameworks */,
+				1AC1831229EEF60A00B70BE2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = OrderOfEvents;
-			productName = OrderOfEvents;
-			productReference = 1A292F4329D34C5B00E44DD4 /* OrderOfEvents.app */;
+			name = "Pizza Deilvery";
+			productName = "Pizza Deilvery";
+			productReference = 1AC1831429EEF60A00B70BE2 /* Pizza Deilvery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		1A292F3B29D34C5B00E44DD4 /* Project object */ = {
+		1AC1830C29EEF60A00B70BE2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
 				TargetAttributes = {
-					1A292F4229D34C5B00E44DD4 = {
+					1AC1831329EEF60A00B70BE2 = {
 						CreatedOnToolsVersion = 12.4;
 					};
 				};
 			};
-			buildConfigurationList = 1A292F3E29D34C5B00E44DD4 /* Build configuration list for PBXProject "OrderOfEvents" */;
+			buildConfigurationList = 1AC1830F29EEF60A00B70BE2 /* Build configuration list for PBXProject "Pizza Deilvery" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,57 +109,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 1A292F3A29D34C5B00E44DD4;
-			productRefGroup = 1A292F4429D34C5B00E44DD4 /* Products */;
+			mainGroup = 1AC1830B29EEF60A00B70BE2;
+			productRefGroup = 1AC1831529EEF60A00B70BE2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1A292F4229D34C5B00E44DD4 /* OrderOfEvents */,
+				1AC1831329EEF60A00B70BE2 /* Pizza Deilvery */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1A292F4129D34C5B00E44DD4 /* Resources */ = {
+		1AC1831229EEF60A00B70BE2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1A292F5329D34C5E00E44DD4 /* LaunchScreen.storyboard in Resources */,
-				1A292F5029D34C5E00E44DD4 /* Assets.xcassets in Resources */,
-				1A292F4E29D34C5B00E44DD4 /* Main.storyboard in Resources */,
+				1AC1832429EEF60E00B70BE2 /* LaunchScreen.storyboard in Resources */,
+				1AC1832129EEF60E00B70BE2 /* Assets.xcassets in Resources */,
+				1AC1831F29EEF60A00B70BE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		1A292F3F29D34C5B00E44DD4 /* Sources */ = {
+		1AC1831029EEF60A00B70BE2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AC1830829EAFA1300B70BE2 /* LastVC.swift in Sources */,
-				1A292F4B29D34C5B00E44DD4 /* FirstVC.swift in Sources */,
-				1AC1830529EAF9E300B70BE2 /* MIddleVC.swift in Sources */,
-				1A292F4729D34C5B00E44DD4 /* AppDelegate.swift in Sources */,
-				1A292F4929D34C5B00E44DD4 /* SceneDelegate.swift in Sources */,
+				1AC1831C29EEF60A00B70BE2 /* ViewController.swift in Sources */,
+				1AC1831829EEF60A00B70BE2 /* AppDelegate.swift in Sources */,
+				1AC1831A29EEF60A00B70BE2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		1A292F4C29D34C5B00E44DD4 /* Main.storyboard */ = {
+		1AC1831D29EEF60A00B70BE2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A292F4D29D34C5B00E44DD4 /* Base */,
+				1AC1831E29EEF60A00B70BE2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1A292F5129D34C5E00E44DD4 /* LaunchScreen.storyboard */ = {
+		1AC1832229EEF60E00B70BE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1A292F5229D34C5E00E44DD4 /* Base */,
+				1AC1832329EEF60E00B70BE2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -173,7 +165,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		1A292F5529D34C5E00E44DD4 /* Debug */ = {
+		1AC1832629EEF60E00B70BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -234,7 +226,7 @@
 			};
 			name = Debug;
 		};
-		1A292F5629D34C5E00E44DD4 /* Release */ = {
+		1AC1832729EEF60E00B70BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -289,36 +281,36 @@
 			};
 			name = Release;
 		};
-		1A292F5829D34C5E00E44DD4 /* Debug */ = {
+		1AC1832929EEF60E00B70BE2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OrderOfEvents/Info.plist;
+				INFOPLIST_FILE = "Pizza Deilvery/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chosseSomthing.OrderOfEvents;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chosseSomthing.Pizza-Deilvery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		1A292F5929D34C5E00E44DD4 /* Release */ = {
+		1AC1832A29EEF60E00B70BE2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = OrderOfEvents/Info.plist;
+				INFOPLIST_FILE = "Pizza Deilvery/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.chosseSomthing.OrderOfEvents;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chosseSomthing.Pizza-Deilvery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -328,25 +320,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A292F3E29D34C5B00E44DD4 /* Build configuration list for PBXProject "OrderOfEvents" */ = {
+		1AC1830F29EEF60A00B70BE2 /* Build configuration list for PBXProject "Pizza Deilvery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A292F5529D34C5E00E44DD4 /* Debug */,
-				1A292F5629D34C5E00E44DD4 /* Release */,
+				1AC1832629EEF60E00B70BE2 /* Debug */,
+				1AC1832729EEF60E00B70BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1A292F5729D34C5E00E44DD4 /* Build configuration list for PBXNativeTarget "OrderOfEvents" */ = {
+		1AC1832829EEF60E00B70BE2 /* Build configuration list for PBXNativeTarget "Pizza Deilvery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1A292F5829D34C5E00E44DD4 /* Debug */,
-				1A292F5929D34C5E00E44DD4 /* Release */,
+				1AC1832929EEF60E00B70BE2 /* Debug */,
+				1AC1832A29EEF60E00B70BE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 1A292F3B29D34C5B00E44DD4 /* Project object */;
+	rootObject = 1AC1830C29EEF60A00B70BE2 /* Project object */;
 }
